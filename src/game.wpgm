@@ -1,0 +1,20 @@
+import wollok.game.*
+import personaje.*
+import config.*
+
+program pokeworld {
+	//  CONFIG	
+	game.title("pokeworld")
+	game.height(60)
+	game.width(60)
+	game.cellSize(30)
+	
+	game.boardGround("city1.png")
+	
+
+	//  VISUALES
+	config.iniciar()
+ 	
+ 	//  COMIENZA
+	game.start()
+}
