@@ -1,5 +1,6 @@
 import personaje.*
 import wollok.game.*
+import edificios.*
 
 
 object config {
@@ -7,6 +8,15 @@ object config {
 	method iniciar(){
 		self.configurarTeclas()
 		game.addVisualCharacter(personaje)
+		
+		//var gimnasio1 = new Gimnasio1()
+		game.addVisual(gimnasio1)
+		
+		game.addVisual(casa)
+		game.addVisual(mercado)
+		game.addVisual(gimnasio2)
+		
+		
 	}	
 	
 	method configurarTeclas(){

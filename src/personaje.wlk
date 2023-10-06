@@ -8,7 +8,11 @@ object personaje {
 	
 	
 	method irA(nuevaPosicion) {
-        position = nuevaPosicion
-        
+        position = nuevaPosicion    
+	}
+	
+	method frena(){
+		game.say(self,"por aca no")
 	}
 }
+
