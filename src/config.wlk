@@ -18,6 +18,8 @@ object config {
 		game.addVisual(mercado)
 		game.addVisual(gimnasio2)
 		
+		
+		
 		game.whenCollideDo(casa, { x => x.hablar()})
 
 		

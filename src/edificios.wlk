@@ -11,6 +11,7 @@ import config.*
 object gimnasio1 {
 	var property position = game.at(51,25)
 	var property image = "gimnasio1.png"
+	
 }
 object gimnasio2{
 	var property position = game.at(5,50)
@@ -27,4 +28,12 @@ object casa{
 object mercado{
 	var property position = game.at(30,55)
 	var property image = "mercado.png"
+}
+object no{
+	var property position = game.at(5,17)
+	var property image = "mercadosa.png"
+}
+object noo{
+	var property position = game.at(5,18)
+	var property image = "mercadosa.png"
 }
