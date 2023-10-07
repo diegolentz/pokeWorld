@@ -10,9 +10,10 @@ object personaje {
 	method irA(nuevaPosicion) {
         position = nuevaPosicion    
 	}
-	method subir(){
+	method hablar(){
 		position = position.right(3)
+		game.say(self,"no podes pasar")
 	}
-
+	
 }
 

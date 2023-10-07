@@ -1,6 +1,13 @@
 import wollok.game.*
 import config.*
 
+
+
+
+
+
+
+
 object gimnasio1 {
 	var property position = game.at(51,25)
 	var property image = "gimnasio1.png"
