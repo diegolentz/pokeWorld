@@ -7,14 +7,19 @@ object config {
 	
 	method iniciar(){
 		self.configurarTeclas()
+		
 		game.addVisualCharacter(personaje)
 		
 		//var gimnasio1 = new Gimnasio1()
 		game.addVisual(gimnasio1)
 		
 		game.addVisual(casa)
+		
 		game.addVisual(mercado)
 		game.addVisual(gimnasio2)
+		
+		game.whenCollideDo(casa, { x => x.subir()})
+
 		
 		
 	}	
@@ -37,4 +42,6 @@ object config {
 
 
 	}
+	
+	
 }

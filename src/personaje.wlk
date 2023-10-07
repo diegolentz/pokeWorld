@@ -2,7 +2,7 @@ import wollok.game.*
 
 
 object personaje {
-	var property position = new Position(x = 3, y = 3)
+	var property position = game.at(3,3)
 	var property image = "player_Up.png"
 	
 	
@@ -10,9 +10,9 @@ object personaje {
 	method irA(nuevaPosicion) {
         position = nuevaPosicion    
 	}
-	
-	method frena(){
-		game.say(self,"por aca no")
+	method subir(){
+		position = position.right(3)
 	}
+
 }
 

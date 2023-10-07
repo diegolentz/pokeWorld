@@ -13,6 +13,9 @@ object gimnasio2{
 object casa{
 	var property position = game.at(0,19)
 	var property image = "casa1.png"
+	//var property puerta = game.at(3,21)
+	
+		
 }
 object mercado{
 	var property position = game.at(30,55)
