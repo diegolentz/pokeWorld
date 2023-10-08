@@ -7,7 +7,7 @@ program pokeworld {
 	game.title("pokeworld")
 	game.height(60)
 	game.width(60)
-	game.cellSize(30)
+	game.cellSize(25)
 	
 	game.boardGround("city1.png")
 	
