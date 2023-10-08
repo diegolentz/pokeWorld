@@ -1,11 +1,5 @@
 import wollok.game.*
 
-object personaje {
-    var property position = game.at(6, 19)
-    var property image = "player_Up.png"
-    var property posicionAnterior = game.at(6, 19)
-    
-
 const p3 =[game.at(3, 50), game.at(3, 49), game.at(3, 48), game.at(3, 47), game.at(3, 46), game.at(3, 45), 
 	game.at(3, 44), game.at(3, 43), game.at(3, 42), game.at(3, 41), game.at(3, 40), game.at(3, 39), 
 	game.at(3, 38), game.at(3, 37), game.at(3, 36), game.at(3, 35), game.at(3, 34), game.at(3, 33), 
@@ -79,126 +73,46 @@ const p51 = [ game.at(51, 4), game.at(51, 5), game.at(51, 6), game.at(51, 7), ga
  
  
  
-
-    const equipo = []
-
-    method agregarPokemon(p) {
-        equipo.add(p)
-    }
-
-    method irA(nuevaPosicion) {
-        if (self.puedeMover(nuevaPosicion)) {
-            posicionAnterior = position
-            position = nuevaPosicion
-        } else {
-            // No permitimos el movimiento, restauramos la posición anterior
-            position = posicionAnterior
-        }
-    }
-
-    method puedeMover(nuevaPosicion) {
-    var tiene = nuevaPosicion.x()
-    
-    if (tiene == 3) {
-        return !p3.contains(nuevaPosicion)
-    } else if (tiene == 4) {
-        return !p4.contains(nuevaPosicion)
-    } else if (tiene == 5) {
-        return !p5.contains(nuevaPosicion)
-    } else if (tiene == 6) {
-        return !p6.contains(nuevaPosicion)
-    } else if (tiene == 7) {
-        return !p7.contains(nuevaPosicion)
-    } else if (tiene == 8) {
-        return !p8.contains(nuevaPosicion)
-    } else if (tiene == 9) {
-        return !p9.contains(nuevaPosicion)
-    } else if (tiene == 10) {
-        return !p10.contains(nuevaPosicion)
-    } else if (tiene == 11) {
-        return !p11.contains(nuevaPosicion)
-    } else if (tiene == 12) {
-        return !p12.contains(nuevaPosicion)
-    } else if (tiene == 13) {
-        return !p13.contains(nuevaPosicion)
-    } else if (tiene == 14) {
-        return !p14.contains(nuevaPosicion)
-    } else if (tiene == 15) {
-        return !p15.contains(nuevaPosicion)
-    } else if (tiene == 16) {
-        return !p16.contains(nuevaPosicion)
-    } else if (tiene == 17) {
-        return !p17.contains(nuevaPosicion)
-    } else if (tiene == 18) {
-        return !p18.contains(nuevaPosicion)
-    } else if (tiene == 19) {
-        return !p19.contains(nuevaPosicion)
-    } else if (tiene == 20) {
-        return !p20.contains(nuevaPosicion)
-    } else if (tiene == 21) {
-        return !p21.contains(nuevaPosicion)
-    } else if (tiene == 22) {
-        return !p22.contains(nuevaPosicion)
-    } else if (tiene == 23) {
-        return !p23.contains(nuevaPosicion)
-    } else if (tiene == 24) {
-        return !p24.contains(nuevaPosicion)
-    } else if (tiene == 25) {
-        return !p25.contains(nuevaPosicion)
-    } else if (tiene == 26) {
-        return !p26.contains(nuevaPosicion)
-    } else if (tiene == 27) {
-        return !p27.contains(nuevaPosicion)
-    } else if (tiene == 28) {
-        return !p28.contains(nuevaPosicion)
-    } else if (tiene == 29) {
-        return !p29.contains(nuevaPosicion)
-    } else if (tiene == 30) {
-        return !p30.contains(nuevaPosicion)
-    } else if (tiene == 31) {
-        return !p31.contains(nuevaPosicion)
-    } else if (tiene == 32) {
-        return !p32.contains(nuevaPosicion)
-    } else if (tiene == 33) {
-        return !p33.contains(nuevaPosicion)
-    } else if (tiene == 34) {
-        return !p34.contains(nuevaPosicion)
-    } else if (tiene == 35) {
-        return !p35.contains(nuevaPosicion)
-    } else if (tiene == 36) {
-        return !p36.contains(nuevaPosicion)
-    } else if (tiene == 37) {
-        return !p37.contains(nuevaPosicion)
-    } else if (tiene == 38) {
-        return !p38.contains(nuevaPosicion)
-    } else if (tiene == 39) {
-        return !p39.contains(nuevaPosicion)
-    } else if (tiene == 40) {
-        return !p40.contains(nuevaPosicion)
-    } else if (tiene == 41) {
-        return !p41.contains(nuevaPosicion)
-    } else if (tiene == 42) {
-        return !p42.contains(nuevaPosicion)
-    } else if (tiene == 43) {
-        return !p43.contains(nuevaPosicion)
-    } else if (tiene == 44) {
-        return !p44.contains(nuevaPosicion)
-    } else if (tiene == 45) {
-        return !p45.contains(nuevaPosicion)
-    } else if (tiene == 46) {
-        return !p46.contains(nuevaPosicion)
-    } else if (tiene == 47) {
-        return !p47.contains(nuevaPosicion)
-    } else if (tiene == 48) {
-        return !p48.contains(nuevaPosicion)
-    } else if (tiene == 49) {
-        return !p49.contains(nuevaPosicion)
-    } else if (tiene == 50) {
-        return !p50.contains(nuevaPosicion)
-    } else if (tiene == 51) {
-        return !p51.contains(nuevaPosicion)
-    } else {
-        return true
-    }
-}
-	}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
